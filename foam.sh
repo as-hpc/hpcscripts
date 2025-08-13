@@ -1,7 +1,8 @@
 #!/bin/bash
 
+module purge
 ## Set programming environment
-module unload craype-hugepages2M
+
 module load PrgEnv-cray
 module load openmpi
 
