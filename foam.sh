@@ -12,7 +12,9 @@ export F90=ifx
 export I_MPI_CC=icx
 export I_MPI_CXX=icpx
 export I_MPI_FC=ifx
-
+export MPICC=mpiicx
+export MPICXX=mpiicpx
+export MPIFC=mpiifx
 ## Clone the OpenFOAM 8 repo
 git clone https://github.com/OpenFOAM/OpenFOAM-8.git
 git clone https://github.com/OpenFOAM/ThirdParty-8.git
