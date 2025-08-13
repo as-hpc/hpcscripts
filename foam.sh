@@ -4,6 +4,14 @@ module purge
 ## Set programming environment
 
 module load intel-oneapi-2025/2025.2.0.592
+export CC=icx
+export CXX=icpx
+export FC=ifx
+export F77=ifx
+export F90=ifx
+export I_MPI_CC=icx
+export I_MPI_CXX=icpx
+export I_MPI_FC=ifx
 
 ## Clone the OpenFOAM 8 repo
 git clone https://github.com/OpenFOAM/OpenFOAM-8.git
