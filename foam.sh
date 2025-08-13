@@ -13,7 +13,7 @@ git clone https://github.com/OpenFOAM/ThirdParty-8.git
 cd OpenFOAM-8
 
 ## Source the bashrc file
-source /etc/bashrc
+source etc/bashrc
 
 ## Compile with 16 processors or more
 ./Allwmake -j16
