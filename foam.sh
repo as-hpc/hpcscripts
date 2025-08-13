@@ -3,8 +3,7 @@
 module purge
 ## Set programming environment
 
-module load PrgEnv-cray
-module load openmpi
+module load intel-oneapi-2025/2025.2.0.592
 
 ## Clone the OpenFOAM 8 repo
 git clone https://github.com/OpenFOAM/OpenFOAM-8.git
