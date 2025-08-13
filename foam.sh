@@ -1,4 +1,5 @@
 #!/bin/bash
+
 ## Set programming environment
 module purge
 module load PrgEnv-cray
