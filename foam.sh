@@ -17,4 +17,4 @@ cd OpenFOAM-8
 source etc/bashrc
 
 ## Compile with 16 processors or more
-./Allwmake -j16
+./Allwmake -j40
