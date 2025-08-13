@@ -7,7 +7,7 @@ module load PrgEnv-cray
 module load openmpi
 
 ## Clone the OpenFOAM 8 repo
-git clone https://github.com/OpenFOAM/OpenFOAM-8.git
+git clone -b ELAM https://github.com/OpenFOAM/OpenFOAM-8.git
 git clone https://github.com/OpenFOAM/ThirdParty-8.git
 
 ## Go to where OpenFOAM should be installed
