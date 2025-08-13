@@ -1,8 +1,6 @@
 #!/bin/bash
-
-module purge
 ## Set programming environment
-
+module purge
 module load PrgEnv-cray
 module load openmpi
 
